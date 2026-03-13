@@ -1,0 +1,140 @@
+html, body{
+	background-color:#F0F7FB;
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	min-height:100vh;
+	display:flex;
+	flex-direction:column;
+	color:#334155;
+	font-size:18px;
+}
+
+/* Estrutura */
+header, main, footer{
+	display:flex;
+	justify-content:center;
+}
+
+/* Cabeçalho */
+header{
+	padding:10px;
+	background-color:#E3F2FD;
+}
+
+/* Conteúdo principal */
+main{
+	flex:1;
+	align-items:center;
+}
+
+main section{
+	background-color:rgba(255,255,255,0.75);
+	padding:25px;
+	border-radius:10px;
+	box-shadow:0 4px 12px rgba(0,0,0,0.1);
+	width:90%;
+	max-width:800px;
+}
+
+/* Rodapé */
+footer{
+	font-size:0.6em;
+	text-align:center;
+	padding:10px;
+}
+
+/* Textos */
+h1{
+	font-size:30px;
+}
+h6{
+	margin-top: 5px;
+	font-size: 1em;
+}
+
+p{
+	font-size:16px;
+	max-width:900px;
+	text-align: justify;
+}
+
+/* Lista */
+.lista ul{
+	font-size:16px;
+	padding:0;
+	list-style-position:inside;
+}
+
+.lista h4{
+	font-size:1.4em;
+}
+.contato{
+margin-top: 20px;
+margin-bottom: 10px;
+}
+.biografia{
+max-width: 1000px;
+}
+
+/* Tabela */
+table{
+	border-collapse:collapse;
+	width:100%;
+	background-color:rgba(227,242,253,0.6);
+	border-radius:8px;
+	overflow:hidden;
+}
+
+/* Cabeçalho da tabela */
+th{
+	background-color:#60A5FA;
+	color:white;
+	padding:10px;
+	text-align:left;
+}
+
+/* Células */
+td{
+	padding:10px;
+	color:#334155;
+}
+
+/* Linhas da tabela */
+tr:not(:last-child) td{
+	border-bottom:1px solid #BFDBFE;
+}
+
+/* Efeito ao passar o mouse */
+tr:hover{
+	background-color:#DBEAFE;
+}
+/* Menu de navegação */
+nav{
+	display:flex;
+	align-items:center;
+	gap:25px;
+}
+
+nav a{
+	text-decoration:none;
+	color:#1E3A8A;
+	font-weight:600;
+	padding:6px 10px;
+	border-radius:6px;
+	transition:0.3s;
+}
+
+/* efeito ao passar o mouse */
+nav a:hover{
+	background-color:#BFDBFE;
+	color:#1D4ED8;
+}
+
+/* imagem do início alinhada */
+nav img{
+	vertical-align:middle;
+}
